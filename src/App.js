@@ -1,4 +1,5 @@
 import './App.css';
+import Bibliotheque from './Components/Bibliotheque';
 
 function App() {
     return (
@@ -11,8 +12,15 @@ function App() {
                     <a href="">
                         Accueil
                     </a>
+                    <a href="">
+                        Lunettes de vue
+                    </a>
+                    <a href="">
+                        Lunettes de soleil
+                    </a>
                 </nav>
             </header>
+            <Bibliotheque />
         </div>
     );
 }
